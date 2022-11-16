@@ -4,15 +4,17 @@ public class PagrindinePrograma {
     public static void main(String[] args) {
 
             Studentas studentas1 = new Studentas("Vardaitis", "Pavardaitis", 3, 7.5);
-            System.out.println("studentas1.getVardas() = " + studentas1.getVardas());
+            System.out.println("studentas1 = " + studentas1);
 
             Studentas studentas2 = new Studentas("Vardaite", "Pavardaite", 4, 7.3);
-            System.out.println("studentas2.getVardas() =" + studentas2.getVardas());
+            System.out.println("studentas2 = " + studentas2);
 
             Studentas studentas3 = nuskaitytiStudentaIsKonsoles();
-            System.out.println("studentas2 = " + studentas2);
-        }
+            System.out.println("studentas3 = " + studentas3);
 
+            Studentas studentas4 = nuskaitytiStudentaIsKonsoles();
+            System.out.println("studentas4 = " + studentas4);
+        }
 
         public static  Studentas nuskaitytiStudentaIsKonsoles() {
             Scanner skaitytuvas = new Scanner(System.in);
